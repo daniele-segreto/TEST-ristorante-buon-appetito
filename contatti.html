@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Buon Appetito</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <h1 class="display-4">RISTORANTE BUON APPETITO</h1>
+            <p class="lead">Cucina Italiana</p>
+            <!-- <hr class="my-4"> -->
+            <p>Benvenuto sul sito del nostro ristorante.</p>
+        </div>
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">Buon Appetito</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./menu.html">Menù</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./contatti.html">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main -->
+    <main class="container">
+        <section class="row">
+            
+            <!-- Sezione 1 -->
+            <div class="col-lg-6 mt-3">
+                <h2>Lascia un messaggio</h2>
+                <p>Siamo entusiasti di ascoltarti! Se hai domande, suggerimenti o desideri prenotare un tavolo, non esitare a metterti in contatto con noi. Compila il modulo qui sotto e ti risponderemo nel più breve tempo possibile.</p>
+                <p>La tua opinione è fondamentale per noi e ci aiuta a migliorare continuamente l'esperienza che offriamo. Grazie per essere parte della nostra comunità culinaria!</p>
+                <p>Ricorda che ogni piatto che creiamo è ispirato dalla passione e dalla dedizione, e ogni feedback che riceviamo ci aiuta a portare avanti questa missione di eccellenza culinaria. Non vediamo l'ora di sentire cosa hai da dire!</p>
+                <p>Apprezziamo il tuo tempo e la tua fiducia nel nostro ristorante. Ogni suggerimento è un passo avanti verso la perfezione culinaria e siamo grati di condividere questo viaggio con te.</p>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nome</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Cognome</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Messaggio</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary border border-0 mt-3">Invia</button>
+                </form>
+            </div>
+            
+            <!-- Sezione 2 -->
+            <div class="col-lg-6 margine-sezioni">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200973.41181959488!2d13.258889565429683!3d38.08878567809561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e570c5846095%3A0x80a4340f76114e61!2sMangia%20che%20%C3%A8%20buono!5e0!3m2!1sit!2sit!4v1694096336170!5m2!1sit!2sit" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-6 margine-sezioni">
+                <h2>Dove siamo</h2>
+                <p>Non vediamo l'ora di darti il benvenuto nel nostro ristorante. Siamo ubicati nel cuore pulsante della città, pronto a coccolarti con autentiche prelibatezze italiane. Ti aspettiamo!</p>
+                <p>La nostra posizione centrale rende facile raggiungerci, che tu sia un residente della città o un visitatore. Siamo un'oasi di gusto e convivialità in mezzo al trambusto urbano, pronto a offrirti un momento di piacere culinario.</p>
+                <p>Vieni a trovarci e scopri il nostro angolo di paradiso gastronomico. Siamo impazienti di condividere con te le nostre creazioni culinarie e di farti sentire a casa nel nostro ambiente accogliente e caloroso.</p>
+                <hr>
+                <p>Viale Regione Siciliana, 4211, 90129 Palermo PA</p>
+                <p>+39 091.5978327</p>
+                <p>ristorante@buon_appetito.com</p>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="d-flex justify-content-center p-5">
+            <a href="./index.html" class="text-light m-3">Home</a>
+            <a href="./menu.html" class="text-light m-3">Menù</a>
+            <a href="./contatti.html" class="text-light m-3">Contatti</a>
+        </div>
+    </footer>
+    
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

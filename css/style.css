@@ -1,0 +1,48 @@
+.jumbotron {
+    background-image: url('../img/piatto-ristorante.jpg');
+    background-size: cover;
+    color: #fff;
+    height: 280px;
+    padding: 20px;
+}
+
+h1, .jumbotron p {
+    text-shadow: 2px 2px 4px black;
+}
+
+.navbar {
+    background-color: #456452 !important;
+    padding: 15px;
+}
+
+.navbar li a:hover {
+    color: #e75e34 !important;
+}
+
+main {
+    padding: 50px;
+}
+
+.margine-sezioni {
+    margin-top: 70px;
+}
+
+.card img {
+    min-height: 300px;
+}
+
+button {
+    background-color: #456452 !important;
+}
+
+footer {
+    background-color: #456452 !important;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e75e34 !important;
+}
